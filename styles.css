@@ -46,10 +46,9 @@ nav li:hover {
   grid-template-columns: 50% 50%;
   grid-auto-flow: column;
   margin: 0;
-  border-right: solid 2px #8a817c;
 }
 
-img {
+.startpage img {
   width: 25em;
   height: 50em;
   margin-top: 2em;
@@ -81,8 +80,7 @@ img {
   padding-right: 25em;
   hyphens: auto;
   display: grid;
-  align-self: end;
-  grid-auto-flow: column;
+  align-self: flex-end;
 }
 .image {
   grid: display;
