@@ -51,10 +51,11 @@ nav li:hover {
 .startpage img {
   width: 25em;
   height: 50em;
-  margin-top: 2em;
+  margin-top: 1em;
   display: grid;
   align-self: end;
   margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 .luise {
@@ -85,4 +86,17 @@ nav li:hover {
 .image {
   grid: display;
   justify-self: end;
+}
+
+li {
+  list-style: none;
+}
+.footer {
+  background: #eee2df;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  justify-items: center;
+}
+li :hover {
+  cursor: pointer;
 }
